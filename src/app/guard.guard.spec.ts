@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-import { Router } from '@angular/router';
 
 import { GuardGuard } from './guard.guard';
 
