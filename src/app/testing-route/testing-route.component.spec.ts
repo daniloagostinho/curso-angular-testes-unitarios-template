@@ -23,12 +23,4 @@ describe('TestingRouteComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('Deve navegar para url passada', () => {
-    let route = 'dashboad'
-    spyOn(router, 'navigate')
-
-    component.navigateUrl(route)
-
-    expect(router.navigate).toHaveBeenCalledWith(['/dashboad'])
-  })
 });

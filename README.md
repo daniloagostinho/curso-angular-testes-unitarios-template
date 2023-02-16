@@ -4,13 +4,13 @@
  Abra o prompt de comando e cole o código abaixo:
  
  ```
- git clone git@github.com:daniloagostinho/curso-angular-testes-unitarios.git
+ git clone git@github.com:daniloagostinho/curso-angular-testes-unitarios-template.git
 ```
 
 Entre na pasta do projeto
 
 ```
- cd curso-angular-testes-unitarios
+ cd curso-angular-testes-unitarios-template
 ```
 
 e instale as dependências

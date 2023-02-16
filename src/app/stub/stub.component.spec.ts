@@ -31,9 +31,4 @@ describe('StubComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('Deve navegar para home quando clicar no botão', () => {
-    component.goTo()
-
-    expect(router.navigate).toHaveBeenCalledWith(['/home'])
-  })
 });

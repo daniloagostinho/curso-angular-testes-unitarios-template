@@ -24,11 +24,4 @@ describe('MockServiceComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  it("Deve chamar getUsers", () => {
-    let spiedComponent  = spyOn(component, 'getUsers').and.callThrough()
-    component.getUsers()
-
-    expect(spiedComponent).toHaveBeenCalledTimes(1)
-  })
 });
