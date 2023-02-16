@@ -1,4 +1,3 @@
-import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MockServiceComponent } from './mock-service.component';
@@ -10,9 +9,6 @@ describe('MockServiceComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ MockServiceComponent ],
-      imports: [
-        HttpClientTestingModule
-      ]
     })
     .compileComponents();
 
